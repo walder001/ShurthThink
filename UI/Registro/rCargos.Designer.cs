@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.Cargo = new System.Windows.Forms.NumericUpDown();
             this.label8 = new System.Windows.Forms.Label();
@@ -37,7 +38,9 @@
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
+            this.ErrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.Cargo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ErrorProvider)).BeginInit();
             this.SuspendLayout();
             // 
             // txtDescripcion
@@ -72,9 +75,9 @@
             this.label1.ForeColor = System.Drawing.Color.DimGray;
             this.label1.Location = new System.Drawing.Point(22, 56);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 13);
+            this.label1.Size = new System.Drawing.Size(51, 13);
             this.label1.TabIndex = 25;
-            this.label1.Text = "CaldoId";
+            this.label1.Text = "CardoId";
             // 
             // label2
             // 
@@ -98,6 +101,7 @@
             this.btnBuscar.TabIndex = 30;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
             // 
             // btnGuardar
             // 
@@ -110,6 +114,7 @@
             this.btnGuardar.TabIndex = 29;
             this.btnGuardar.Text = "Guargar";
             this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.BtnGuardar_Click);
             // 
             // btnModificar
             // 
@@ -136,6 +141,11 @@
             this.btnNuevo.TabIndex = 27;
             this.btnNuevo.Text = "Nuevo";
             this.btnNuevo.UseVisualStyleBackColor = false;
+            this.btnNuevo.Click += new System.EventHandler(this.BtnNuevo_Click);
+            // 
+            // ErrorProvider
+            // 
+            this.ErrorProvider.ContainerControl = this;
             // 
             // rCargos
             // 
@@ -154,6 +164,7 @@
             this.Name = "rCargos";
             this.Text = "Cargo";
             ((System.ComponentModel.ISupportInitialize)(this.Cargo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ErrorProvider)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -169,5 +180,6 @@
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button btnNuevo;
+        private System.Windows.Forms.ErrorProvider ErrorProvider;
     }
 }

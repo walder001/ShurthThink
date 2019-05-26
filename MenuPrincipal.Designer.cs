@@ -49,7 +49,7 @@
             this.Fondo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Fondo.Location = new System.Drawing.Point(0, 0);
             this.Fondo.Name = "Fondo";
-            this.Fondo.Size = new System.Drawing.Size(514, 450);
+            this.Fondo.Size = new System.Drawing.Size(686, 490);
             this.Fondo.TabIndex = 0;
             // 
             // Menu
@@ -58,7 +58,7 @@
             this.Menu.Dock = System.Windows.Forms.DockStyle.Top;
             this.Menu.Location = new System.Drawing.Point(0, 0);
             this.Menu.Name = "Menu";
-            this.Menu.Size = new System.Drawing.Size(514, 27);
+            this.Menu.Size = new System.Drawing.Size(686, 27);
             this.Menu.TabIndex = 1;
             this.Menu.Paint += new System.Windows.Forms.PaintEventHandler(this.Menu_Paint);
             // 
@@ -70,7 +70,7 @@
             this.mantenimientoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(514, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(686, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -109,14 +109,14 @@
             // usuarioToolStripMenuItem1
             // 
             this.usuarioToolStripMenuItem1.Name = "usuarioToolStripMenuItem1";
-            this.usuarioToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.usuarioToolStripMenuItem1.Size = new System.Drawing.Size(114, 22);
             this.usuarioToolStripMenuItem1.Text = "Usuario";
             this.usuarioToolStripMenuItem1.Click += new System.EventHandler(this.UsuarioToolStripMenuItem1_Click);
             // 
             // cargoToolStripMenuItem
             // 
             this.cargoToolStripMenuItem.Name = "cargoToolStripMenuItem";
-            this.cargoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cargoToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.cargoToolStripMenuItem.Text = "Cargo";
             this.cargoToolStripMenuItem.Click += new System.EventHandler(this.CargoToolStripMenuItem_Click);
             // 
@@ -135,12 +135,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(514, 450);
+            this.ClientSize = new System.Drawing.Size(686, 490);
             this.Controls.Add(this.Menu);
             this.Controls.Add(this.Fondo);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MenuPrincipal";
-            this.Text = "Form1";
+            this.Text = "Menu Principal";
             this.Menu.ResumeLayout(false);
             this.Menu.PerformLayout();
             this.menuStrip1.ResumeLayout(false);

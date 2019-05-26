@@ -19,20 +19,7 @@ namespace ProyectoFinal.UI.Registro
             InitializeComponent();
         }
 
-        private void Label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label5_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         //Limpia
         //UsuarioId, Nombres, Email, NivelUsuario, Usuario, Clave, FechaIngreso
