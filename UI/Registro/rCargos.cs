@@ -104,9 +104,16 @@ namespace Shurth.UI.Registro
 
 
 
-        private void BtnNuevo_Click(object sender, EventArgs e)
+        private void BtnEliminar_Click(object sender, EventArgs e)
         {
+            ErrorProvider.Clear();
+            int id;
+            int.TryParse(Cargo.Text, out id);
             Limpiar();
+            if (UsuarioBLL.Eliminar(id))
+                MessageBox.Show("Eliminado");
+            else
+                ErrorProvider.SetError(Cargo, "No se puede eliminar un cargo que no existe");
         }
 
         private void BtnGuardar_Click(object sender, EventArgs e)
@@ -121,7 +128,7 @@ namespace Shurth.UI.Registro
             Limpiar();
 
             //Determinar si es guardar o modificar
-            if (CargoId.Value == 0)
+            if (Cargo.Value == 0)
                 paso = CargoBLL.Guardar(cargos);
             else
             {

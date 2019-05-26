@@ -37,7 +37,7 @@
             this.btnBuscar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
-            this.btnNuevo = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.ErrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.Cargo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ErrorProvider)).BeginInit();
@@ -108,7 +108,7 @@
             this.btnGuardar.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.ForeColor = System.Drawing.SystemColors.Info;
-            this.btnGuardar.Location = new System.Drawing.Point(203, 146);
+            this.btnGuardar.Location = new System.Drawing.Point(25, 146);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(71, 29);
             this.btnGuardar.TabIndex = 29;
@@ -126,22 +126,22 @@
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(71, 29);
             this.btnModificar.TabIndex = 28;
-            this.btnModificar.Text = "Modifica";
+            this.btnModificar.Text = "Editar";
             this.btnModificar.UseVisualStyleBackColor = false;
             this.btnModificar.Click += new System.EventHandler(this.BtnModificar_Click);
             // 
-            // btnNuevo
+            // btnEliminar
             // 
-            this.btnNuevo.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btnNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNuevo.ForeColor = System.Drawing.SystemColors.Info;
-            this.btnNuevo.Location = new System.Drawing.Point(25, 146);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(71, 29);
-            this.btnNuevo.TabIndex = 27;
-            this.btnNuevo.Text = "Nuevo";
-            this.btnNuevo.UseVisualStyleBackColor = false;
-            this.btnNuevo.Click += new System.EventHandler(this.BtnNuevo_Click);
+            this.btnEliminar.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.ForeColor = System.Drawing.SystemColors.Info;
+            this.btnEliminar.Location = new System.Drawing.Point(194, 146);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(71, 29);
+            this.btnEliminar.TabIndex = 27;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.BtnEliminar_Click);
             // 
             // ErrorProvider
             // 
@@ -155,7 +155,7 @@
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.btnModificar);
-            this.Controls.Add(this.btnNuevo);
+            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label8);
@@ -179,7 +179,7 @@
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Button btnModificar;
-        private System.Windows.Forms.Button btnNuevo;
+        private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.ErrorProvider ErrorProvider;
     }
 }

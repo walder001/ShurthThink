@@ -157,18 +157,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DAL\QueryOfShurth.sql" />
-    <Content Include="Release\clientes.png" />
-    <Content Include="Release\compras.png" />
-    <Content Include="Release\empleados.png" />
-    <Content Include="Release\Icono cerrar FN.png" />
-    <Content Include="Release\Icono Maximizar.png" />
-    <Content Include="Release\Icono Minimizar.png" />
-    <Content Include="Release\Icono Restaurar.png" />
-    <Content Include="Release\producto.png" />
-    <Content Include="Release\relo3.png" />
-    <Content Include="Release\reportes.png" />
-    <Content Include="Release\VECTOR.png" />
-    <Content Include="Release\venta.png" />
+    <Content Include="Resources\clientes.png" />
+    <Content Include="Resources\compras.png" />
+    <Content Include="Resources\empleados.png" />
+    <Content Include="Resources\Icono cerrar FN.png" />
+    <Content Include="Resources\Icono Maximizar.png" />
+    <Content Include="Resources\Icono Minimizar.png" />
+    <Content Include="Resources\Icono Restaurar.png" />
+    <Content Include="Resources\producto.png" />
+    <Content Include="Resources\relo3.png" />
+    <Content Include="Resources\reportes.png" />
+    <Content Include="Resources\Tarea1.1_20160926_MenuPrincipal.png" />
+    <Content Include="Resources\Tarea1.2_20160926_RegistroUsuario.png" />
+    <Content Include="Resources\Tarea1.3_20160926_RegistroCargo.png" />
+    <Content Include="Resources\Tarea1.4_20160926_ConsultaUsuario.png" />
+    <Content Include="Resources\Tarea1.5_20160926_ConsultaCargo.png" />
+    <Content Include="Resources\VECTOR.png" />
+    <Content Include="Resources\venta.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -40,7 +40,7 @@
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtClave = new System.Windows.Forms.TextBox();
-            this.btnNuevo = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
@@ -97,7 +97,6 @@
             this.label4.Size = new System.Drawing.Size(75, 13);
             this.label4.TabIndex = 3;
             this.label4.Text = "NivelUsiario";
-           
             // 
             // label5
             // 
@@ -109,7 +108,6 @@
             this.label5.Size = new System.Drawing.Size(50, 13);
             this.label5.TabIndex = 4;
             this.label5.Text = "Usuario";
-          
             // 
             // label6
             // 
@@ -132,7 +130,6 @@
             this.label7.Size = new System.Drawing.Size(84, 13);
             this.label7.TabIndex = 6;
             this.label7.Text = "FechaIngreso";
-         
             // 
             // txtNombre
             // 
@@ -162,18 +159,18 @@
             this.txtClave.Size = new System.Drawing.Size(243, 20);
             this.txtClave.TabIndex = 12;
             // 
-            // btnNuevo
+            // btnEliminar
             // 
-            this.btnNuevo.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btnNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNuevo.ForeColor = System.Drawing.SystemColors.Info;
-            this.btnNuevo.Location = new System.Drawing.Point(24, 424);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(83, 35);
-            this.btnNuevo.TabIndex = 14;
-            this.btnNuevo.Text = "Nuevo";
-            this.btnNuevo.UseVisualStyleBackColor = false;
-            this.btnNuevo.Click += new System.EventHandler(this.BtnNuevo_Click);
+            this.btnEliminar.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.ForeColor = System.Drawing.SystemColors.Info;
+            this.btnEliminar.Location = new System.Drawing.Point(281, 424);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(83, 35);
+            this.btnEliminar.TabIndex = 14;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.BtnEliminar_Click);
             // 
             // btnModificar
             // 
@@ -185,7 +182,7 @@
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(83, 35);
             this.btnModificar.TabIndex = 15;
-            this.btnModificar.Text = "Modifica";
+            this.btnModificar.Text = "Editar";
             this.btnModificar.UseVisualStyleBackColor = false;
             this.btnModificar.Click += new System.EventHandler(this.BtnModificar_Click);
             // 
@@ -194,7 +191,7 @@
             this.btnGuardar.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.ForeColor = System.Drawing.SystemColors.Info;
-            this.btnGuardar.Location = new System.Drawing.Point(281, 424);
+            this.btnGuardar.Location = new System.Drawing.Point(24, 424);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(83, 35);
             this.btnGuardar.TabIndex = 16;
@@ -265,7 +262,7 @@
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.btnModificar);
-            this.Controls.Add(this.btnNuevo);
+            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.txtClave);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.txtEmail);
@@ -300,7 +297,7 @@
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtClave;
-        private System.Windows.Forms.Button btnNuevo;
+        private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Button btnBuscar;
