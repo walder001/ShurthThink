@@ -156,7 +156,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DAL\QueryOfShurth.sql" />
+    <Content Include="DAL\QueryShurthDb.sql" />
     <Content Include="Resources\clientes.png" />
     <Content Include="Resources\compras.png" />
     <Content Include="Resources\empleados.png" />
